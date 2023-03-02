@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="#FFCCCC">
+
+    <ImageView
+        android:id="@+id/applogo"
+        android:layout_width="268dp"
+        android:layout_height="194dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/khaby3"></ImageView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtemail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/applogo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edtbackground"
+        android:hint="Email"
+        android:paddingLeft="13dp"></EditText>
+
+    <EditText
+        android:id="@+id/edtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edtemail"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edtbackground"
+        android:hint="Password"
+        android:paddingLeft="13dp"></EditText>
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="150dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtpassword"
+        android:layout_centerHorizontal="true"
+        android:text="log in"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnbackground">
+    </Button>
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="150dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnlogin"
+        android:layout_centerHorizontal="true"
+        android:text="Sign up"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnbackground">
+    </Button>
+
+
+
+
+
+
+</RelativeLayout>
